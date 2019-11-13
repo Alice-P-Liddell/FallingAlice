@@ -61,6 +61,8 @@ public class TabButtons : MonoBehaviour
         hairTabText.color = Color.white;
         dressTabText.color = Color.black;
         friendTabText.color = Color.black;
+
+        //TODO : 애니메이션 넣기
     }
 
     public void ClickDressTab()
