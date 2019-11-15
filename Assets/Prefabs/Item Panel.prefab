@@ -85,7 +85,6 @@ GameObject:
   - component: {fileID: 8755327680534742434}
   - component: {fileID: 8755327680534742437}
   - component: {fileID: 3528330942756249517}
-  - component: {fileID: 5870449448483627188}
   - component: {fileID: 8523704230190715819}
   - component: {fileID: 7621756860964566353}
   m_Layer: 5
@@ -205,24 +204,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &5870449448483627188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8755327680534742439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b7760689fdf8e94f80b254e1ed4c1e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemState: 0
-  lockPanel: {fileID: 8755327679432212319}
-  itemStateImage: {fileID: 8755327681082205472}
-  lockSprite: {fileID: 21300000, guid: 52052abbf0aac6e4aaf6389df07eba04, type: 3}
-  checkSprite: {fileID: 21300000, guid: 3ea99c2da67bb6b43873a5518267d37a, type: 3}
-  collectedSprite: {fileID: 21300000, guid: 490a398e094525242b3b25edfeecd0d6, type: 3}
 --- !u!114 &8523704230190715819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241,6 +222,7 @@ MonoBehaviour:
   lockSprite: {fileID: 21300000, guid: 52052abbf0aac6e4aaf6389df07eba04, type: 3}
   checkSprite: {fileID: 21300000, guid: 3ea99c2da67bb6b43873a5518267d37a, type: 3}
   collectedSprite: {fileID: 21300000, guid: 490a398e094525242b3b25edfeecd0d6, type: 3}
+  buyPanel: {fileID: 0}
 --- !u!114 &7621756860964566353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,6 +241,7 @@ MonoBehaviour:
   lockSprite: {fileID: 21300000, guid: 52052abbf0aac6e4aaf6389df07eba04, type: 3}
   checkSprite: {fileID: 21300000, guid: 3ea99c2da67bb6b43873a5518267d37a, type: 3}
   collectedSprite: {fileID: 21300000, guid: 490a398e094525242b3b25edfeecd0d6, type: 3}
+  buyPanel: {fileID: 0}
 --- !u!1 &8755327680733720563
 GameObject:
   m_ObjectHideFlags: 0
